@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5</title>
+    <link rel="stylesheet" href="./index.html">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <main class="container mx-auto">
+        <!-- navbar styler -->
+        <div class="p-3 mb-10 w-full border  bg-slate-50 z-50 ">
+            <nav class="  p-3   ">
+                <div class="flex justify-between ">
+                    <button class="bg-lime-500 p-3 rounded-lg"><a href="./index.html">Home</a></button>
+                    <div class="flex">
+                        <img src="assets/logo.png" alt="">
+                        <p>Donate Bangladesh</p>
+                    </div>
+                    <div class="flex">
+                        <img src="assets/coin.png" alt="">
+                        <p id="total-amount">5500 BDT</p>
+                    </div>
+
+
+                </div>
+            </nav>
+        </div>
+
+        <div>
+            <h1 class="text-3xl font-bold  border ">Important FAQ</h1>
+        </div>
+
+     <div class="mx-auto">
+        <div class="collapse collapse-arrow border ">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+            <div class="collapse-content">
+              <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of a webpage as a tree of objects, where each object corresponds to a part of the document, such as elements, attributes, and text. </p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow border">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+            <div class="collapse-content">
+              <p>Selects an element by its unique id attribute.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow border">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">What is event delegaton in the context of the DOM, ans why is it useful?</div>
+            <div class="collapse-content">
+              <p>Event delegation in the context of the DOM is a technique where a single event listener is added to a parent element to handle events for all of its child elements, rather than adding separate event listeners to each child element individually.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow border">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How do you manipulate an elements attributes and styles using the DOM?</div>
+            <div class="collapse-content">
+              <p>
+                To manipulate an element's attributes and styles using the DOM, you can use the following methods:</p>
+            </div>
+          </div>
+     </div>
+
+    </main>
+</body>
