@@ -21,17 +21,19 @@
 <body>
   <main class="container mx-auto">
     <!-- navbar styler -->
-    <div class="p-3 m-0 fixed h-20 -mt-32 w-full bg-slate-50 z-50 ">
+    <div class="p-3 m-0 fixed h-24 -mt-32 w-full bg-red-50 z-50 ">
       <nav class="  p-3   ">
         <div class="flex justify-between ">
           <button class="bg-lime-500 p-3 rounded-lg"><a href="./home.html">Blog</a></button>
-          <div class="flex">
+          <div class="flex items-center gap-2">
             <img src="assets/logo.png" alt="">
             <p>Donate Bangladesh</p>
           </div>
-          <div class="flex">
+          <div class="flex gap-1 text-center items-center">
             <img src="assets/coin.png" alt="">
-            <p id="total-amount">5500 BDT</p>
+            <p id="total-amount">5500</p>
+            <br>
+            <span>BDT</span>
           </div>
 
 
@@ -41,12 +43,12 @@
 
 
     <div class="text-center mt-28 ">
-      <button id="Donation-btn" class="w-32 h-10 rounded-lg bg-lime-300 font-bold borderd">Donation </button>
+      <button id="Donation-btn" class="w-32 h-10 rounded-lg bg-lime-300 font-bold border">Donation </button>
       <button id="history-btn" class="w-32 h-10 rounded-lg border ">History</button>
     </div>
 
 
-    <div id="donation-card" class="border border-red-700 mt-5">
+    <div id="donation-card" class=" mt-5">
       <div class="hero border mb-5  rounded-lg">
         <div class="hero-content flex-col lg:flex-row">
 
@@ -68,7 +70,7 @@
             <input id="input-field" type="text" class="w-full p-3 border rounded-lg" name=""
               placeholder="Write Donation Amount">
             <br>
-            <button id="get started-button" onclick="my_modal_1.showModal()" class="btn bg-lime-300 w-full mt-3">Get Started</button>
+            <button id="get started-button" onclick="my_modal_1.showModal()" class="btn bg-lime-300 w-full mt-3">Donate Now</button>
           
           <dialog id="my_modal_1" class="modal">
             <div class="modal-box">
@@ -96,7 +98,7 @@
           <div>
             <button class="btn">
               <img src="assets/coin.png" alt="">
-              <h1>600 BDT</h1>
+              <h1 id=" donation-BDT">600 BDT</h1>
             </button>
             <h1 class="text-2xl font-bold">Donate for Flood Relief in Feni,Bangladesh</h1>
             <p class="py-6">
@@ -106,10 +108,11 @@
               lives
               of those in need.
             </p>
-            <input type="text" class="w-full p-3 border rounded-lg" name="" placeholder="Write Donation Amount" id="">
+            <input  type="text" class="w-full p-3 border rounded-lg" name="" placeholder="Write Donation Amount" id="input-btn">
             <br>
-            <button id="get started-button" onclick="my_modal_1.showModal()" class="btn bg-lime-300 w-full mt-3">Get
-              Started</button>
+            <button id="get started-button" onclick="my_modal_1.showModal()" class="btn bg-lime-300 w-full mt-3">Donate Now</button>
+             
+        
 
           </div>
         </div>
@@ -136,11 +139,14 @@
             </p>
             <input type="text" class="w-full p-3 border rounded-lg" name="" placeholder="Write Donation Amount" id="">
             <br>
-            <button id="get started-button" onclick="my_modal_1.showModal()" class="btn bg-lime-300 w-full mt-3">Get
-              Started</button>
+            <button id="get started-button" onclick="my_modal_1.showModal()" class="btn bg-lime-300 w-full mt-3">Donate Now</button>
           </div>
         </div>
       </div>
+    </div>
+
+    <div id="history-section">
+      
     </div>
   </main>
   <script src="js/add.js"></script>
